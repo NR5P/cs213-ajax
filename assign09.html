@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assign09.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Week 9 Assignment</h1>        
+            <div>
+                <h2 id="part1">Part 1</h2>
+                <p>
+                    Please select a country then press submit. Then 10 largest
+                    cities will be displayed along with their populations.
+                </p>
+                <div id="formElements">
+                    <select name="countries" id="select-box">
+                        <option value="usa.txt">USA</option>
+                        <option value="canada.txt">Canada</option>
+                        <option value="mexico.txt">Mexico</option>
+                        <option value="russia.txt">Russia</option>
+                    </select>
+                    <button type="button" id="button">Submit</button>
+                    <div id="cityInfo"></div>
+                </div>
+            </div>
+            <div>
+                <h2 id="part2">Part 2</h2>
+                <p>
+                    Please enter the file name and press submit
+                </p>
+                <div id="formElements">
+                    <input type="text" id="fileInput" value="json.txt">
+                    <button type="button" id="fileButton">Submit</button>
+                    <div id="part2output"></div>
+                </div>
+            </div>
+            <button id="clear">Clear</button>
+        </div>
+
+        <script src="assign09.js"></script>
+    </body>
+</html>

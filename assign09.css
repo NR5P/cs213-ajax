@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #2085df;
+    text-align: center;
+    margin: 1.4em auto;
+}
+
+h2 {
+    color: #2085df;
+    text-align: center;
+    margin: 1em auto;
+}
+
+p {
+    text-align: center;
+}
+
+select {
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    border: none; 
+    border-radius: 4px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button {
+    height: 30px;
+    width: 60px;
+    border-radius: 4px;
+    background-color: #008cba;
+    border: none;
+}
+
+#formElements {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
