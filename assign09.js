@@ -10,11 +10,14 @@ document.getElementById("button").addEventListener("click", () => {
     xhr.onload = function() {
         if (this.status == 200) {
             // put response handling here
+            /*
             let lines = this.responseText.split("\n");
             lines.forEach(item => {
                 output += `<li>${item}</li}` + "\n";
             });
             displayInfo.innerHTML = `<ul>${output}</ul>`;
+            */
+           displayInfo.innerHTML = "<pre>" + this.responseText + "</pre>";
         }
     }
     xhr.onerror = function() {
