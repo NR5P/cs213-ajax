@@ -54,7 +54,7 @@ button {
     font-size: 1.2em;
 }
 
-#formElements {
+.formElements {
     width: 50%;
     margin: 20px auto;
     text-align: center;
